@@ -1,7 +1,7 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/ChangeValueButton.uss?fileID=7433441132597879392&amp;guid=cc2a2da6d65d4d343bf4c2c767f75a9a&amp;type=3#ChangeValueButton" />
-    <ui:GroupBox style="width: 300px; height: 400px; flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute;">
-        <ui:GroupBox style="width: 300px; height: 300px; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+    <ui:GroupBox style="width: 100%; height: 100%; flex-direction: column; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; position: absolute;">
+        <ui:GroupBox style="width: 100%; height: 75%; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
             <ui:GroupBox style="width: 33.33333%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
                 <ui:Button text="2" display-tooltip-when-elided="true" name="Btn2" />
                 <ui:Button text="5" display-tooltip-when-elided="true" name="Btn5" />
@@ -18,7 +18,7 @@
                 <ui:Button text="7" display-tooltip-when-elided="true" name="Btn7" />
             </ui:GroupBox>
         </ui:GroupBox>
-        <ui:GroupBox style="width: 300px; height: 100px; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
+        <ui:GroupBox style="width: 100%; height: 25%; flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
             <ui:Button display-tooltip-when-elided="true" name="BtnClear" text="Clear" style="width: 66.66666%; height: 100%;" />
             <ui:Button display-tooltip-when-elided="true" name="BtnBack" text="R" style="width: 33.33333%; height: 100%;" />
         </ui:GroupBox>
