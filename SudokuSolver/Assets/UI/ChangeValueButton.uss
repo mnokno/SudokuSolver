@@ -1,8 +1,8 @@
 Button {
-    border-left-width: 5px;
-    border-right-width: 5px;
-    border-top-width: 5px;
-    border-bottom-width: 5px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
