@@ -106,4 +106,51 @@ class SudokuSolver
         }
         return true;
     }
+
+    /// <summary>
+    /// Checks if the given sudoku board is valid
+    /// </summary>
+    /// <param name="sudoku">Sudoku board to check</param>
+    /// <returns>Returns true if the board is valid, false otherwise</returns>
+    public static bool IsBoardValid(ref char[][] sudoku)
+    {
+        for (int x = 0; x < 9; x++)
+        {
+            for (int y = 0; y < 9; y++)
+            {
+                if (sudoku[x][y] != '.')
+                {
+                    // Column and row check
+                    for (int i = 0; i < 9; i++)
+                    {
+                        if (sudoku[x][i] == sudoku[x][y] && i != y)
+                        {
+                            return false;
+                        }
+                        if (sudoku[i][y] == sudoku[x][y] && i != x)
+                        {
+                            return false;
+                        }
+                    }
+                    // Box check
+                    int boxPivotX = x / 3;
+                    int boxPivotY = y / 3;
+                    for (int xl = boxPivotX * 3; xl < 3 + boxPivotX * 3; xl++)
+                    {
+                        for (int yl = boxPivotY * 3; yl < 3 + boxPivotY * 3; yl++)
+                        {
+                            if (yl != y || xl != x)
+                            {
+                                if (sudoku[xl][yl] == sudoku[x][y])
+                                {
+                                    return false;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return true;
+    }
 }
