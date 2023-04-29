@@ -1,12 +1,10 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <ui:Template name="Board" src="project://database/Assets/UI/Board.uxml?fileID=9197481963319205126&amp;guid=53f05b2d85d36bb45a3b6c69bbd19b7b&amp;type=3#Board" />
     <ui:VisualElement style="align-items: center; justify-content: flex-end; width: 100%; height: 100%;">
-        <ui:VisualElement style="width: 100%; height: 100%;">
-            <ui:Instance template="Board" name="t" style="width: 100%; height: 100%; align-items: center; justify-content: flex-start; flex-direction: column-reverse;" />
-        </ui:VisualElement>
-        <ui:VisualElement style="flex-direction: row; align-items: flex-start; justify-content: center;">
-            <ui:Button text="Solve" display-tooltip-when-elided="true" name="Solve" />
-            <ui:Button text="Clear" display-tooltip-when-elided="true" name="Clear" />
+        <ui:Instance template="Board" name="TemplateContainer" style="position: absolute; height: 1080px; width: 1920px; left: 0; top: 0;" />
+        <ui:VisualElement style="flex-direction: row; align-items: flex-start; justify-content: center; position: absolute; width: 587px; top: 858px; left: 750px; height: 140px;">
+            <ui:Button text="Solve" display-tooltip-when-elided="true" name="Solve" style="height: 85px; width: 250px; font-size: 60px;" />
+            <ui:Button text="Clear" display-tooltip-when-elided="true" name="Clear" style="width: 250px; height: 85px; font-size: 60px;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
