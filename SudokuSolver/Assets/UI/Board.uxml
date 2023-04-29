@@ -1,104 +1,104 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI/BoardButton.uss?fileID=7433441132597879392&amp;guid=30cffa53c0b7c2044999107a6f3e5f5c&amp;type=3#BoardButton" />
-    <ui:GroupBox style="width: 100%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-direction: row;">
+    <ui:GroupBox name="GroupBox" style="width: 800px; height: 800px; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; flex-direction: row; position: absolute; top: 35px; left: 641px; right: auto; bottom: 246px;">
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B00" display-tooltip-when-elided="true" name="B00" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B01" display-tooltip-when-elided="true" name="B01" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B02" display-tooltip-when-elided="true" name="B02" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B03" display-tooltip-when-elided="true" name="B03" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B04" display-tooltip-when-elided="true" name="B04" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B05" display-tooltip-when-elided="true" name="B05" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B06" display-tooltip-when-elided="true" name="B06" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B07" display-tooltip-when-elided="true" name="B07" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B08" display-tooltip-when-elided="true" name="B08" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B00" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B01" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B02" enable-rich-text="false" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B03" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B04" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B05" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B06" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B07" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B08" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B10" display-tooltip-when-elided="true" name="B10" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B11" display-tooltip-when-elided="true" name="B11" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B12" display-tooltip-when-elided="true" name="B12" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B13" display-tooltip-when-elided="true" name="B13" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B14" display-tooltip-when-elided="true" name="B14" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B15" display-tooltip-when-elided="true" name="B15" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B16" display-tooltip-when-elided="true" name="B16" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B17" display-tooltip-when-elided="true" name="B17" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B18" display-tooltip-when-elided="true" name="B18" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B10" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B11" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B12" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B13" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B14" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B15" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B16" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B17" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B18" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B20" display-tooltip-when-elided="true" name="B20" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B21" display-tooltip-when-elided="true" name="B21" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B22" display-tooltip-when-elided="true" name="B22" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B23" display-tooltip-when-elided="true" name="B23" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B24" display-tooltip-when-elided="true" name="B24" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B25" display-tooltip-when-elided="true" name="B25" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B26" display-tooltip-when-elided="true" name="B26" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B27" display-tooltip-when-elided="true" name="B27" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B28" display-tooltip-when-elided="true" name="B28" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B20" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B21" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B22" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B23" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B24" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B25" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B26" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B27" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B28" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B30" display-tooltip-when-elided="true" name="B30" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B31" display-tooltip-when-elided="true" name="B31" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B32" display-tooltip-when-elided="true" name="B32" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B33" display-tooltip-when-elided="true" name="B33" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B34" display-tooltip-when-elided="true" name="B34" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B35" display-tooltip-when-elided="true" name="B35" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B36" display-tooltip-when-elided="true" name="B36" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B37" display-tooltip-when-elided="true" name="B37" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B38" display-tooltip-when-elided="true" name="B38" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B30" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B31" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B32" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B33" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B34" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B35" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B36" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B37" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B38" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B40" display-tooltip-when-elided="true" name="B40" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B41" display-tooltip-when-elided="true" name="B41" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B42" display-tooltip-when-elided="true" name="B42" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B43" display-tooltip-when-elided="true" name="B43" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B44" display-tooltip-when-elided="true" name="B44" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B45" display-tooltip-when-elided="true" name="B45" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B46" display-tooltip-when-elided="true" name="B46" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B47" display-tooltip-when-elided="true" name="B47" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B48" display-tooltip-when-elided="true" name="B48" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B40" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B41" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B42" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B43" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B44" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B45" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B46" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B47" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B48" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B50" display-tooltip-when-elided="true" name="B50" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B51" display-tooltip-when-elided="true" name="B51" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B52" display-tooltip-when-elided="true" name="B52" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B53" display-tooltip-when-elided="true" name="B53" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B54" display-tooltip-when-elided="true" name="B54" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B55" display-tooltip-when-elided="true" name="B55" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B56" display-tooltip-when-elided="true" name="B56" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B57" display-tooltip-when-elided="true" name="B57" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B58" display-tooltip-when-elided="true" name="B58" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B50" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B51" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B52" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B53" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B54" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B55" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B56" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B57" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B58" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B60" display-tooltip-when-elided="true" name="B60" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B61" display-tooltip-when-elided="true" name="B61" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B62" display-tooltip-when-elided="true" name="B62" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B63" display-tooltip-when-elided="true" name="B63" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B64" display-tooltip-when-elided="true" name="B64" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B65" display-tooltip-when-elided="true" name="B65" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B66" display-tooltip-when-elided="true" name="B66" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B67" display-tooltip-when-elided="true" name="B67" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B68" display-tooltip-when-elided="true" name="B68" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B60" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B61" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B62" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B63" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B64" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B65" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B66" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B67" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B68" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B70" display-tooltip-when-elided="true" name="B70" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B71" display-tooltip-when-elided="true" name="B71" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B72" display-tooltip-when-elided="true" name="B72" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B73" display-tooltip-when-elided="true" name="B73" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B74" display-tooltip-when-elided="true" name="B74" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B75" display-tooltip-when-elided="true" name="B75" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B76" display-tooltip-when-elided="true" name="B76" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B77" display-tooltip-when-elided="true" name="B77" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B78" display-tooltip-when-elided="true" name="B78" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B70" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B71" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B72" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B73" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B74" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B75" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B76" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B77" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B78" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
         <ui:GroupBox style="width: 11.11111%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;">
-            <ui:Button text="B80" display-tooltip-when-elided="true" name="B80" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B81" display-tooltip-when-elided="true" name="B81" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B82" display-tooltip-when-elided="true" name="B82" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B83" display-tooltip-when-elided="true" name="B83" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B84" display-tooltip-when-elided="true" name="B84" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B85" display-tooltip-when-elided="true" name="B85" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B86" display-tooltip-when-elided="true" name="B86" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B87" display-tooltip-when-elided="true" name="B87" style="width: 100%; height: 11.11111%;" />
-            <ui:Button text="B88" display-tooltip-when-elided="true" name="B88" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="1" display-tooltip-when-elided="true" name="B80" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="2" display-tooltip-when-elided="true" name="B81" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="3" display-tooltip-when-elided="true" name="B82" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="4" display-tooltip-when-elided="true" name="B83" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="5" display-tooltip-when-elided="true" name="B84" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="6" display-tooltip-when-elided="true" name="B85" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="7" display-tooltip-when-elided="true" name="B86" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="8" display-tooltip-when-elided="true" name="B87" style="width: 100%; height: 11.11111%;" />
+            <ui:Button text="9" display-tooltip-when-elided="true" name="B88" style="width: 100%; height: 11.11111%;" />
         </ui:GroupBox>
     </ui:GroupBox>
 </ui:UXML>

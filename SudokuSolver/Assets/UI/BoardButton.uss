@@ -17,6 +17,6 @@ Button {
     border-right-width: 1px;
     border-top-width: 1px;
     border-bottom-width: 1px;
-    font-size: 12px;
-    -unity-font-style: normal;
+    font-size: 70px;
+    -unity-font-style: bold;
 }
