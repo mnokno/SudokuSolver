@@ -26,7 +26,7 @@ public class Test : MonoBehaviour
                 data[i][j] = '.';
                 int x = i;
                 int y = j;
-                root.Q<Button>("B" + i.ToString() + j.ToString()).clicked += () => Clicked(x, y);
+                root.Q<Button>("B" + i.ToString() + j.ToString()).RegisterCallback<ClickEvent>((ClickEvent evn) => Clicked(x, y, evn));
             }
         }
 
@@ -36,11 +36,13 @@ public class Test : MonoBehaviour
         for (int i = 1; i < 10; i++)
         {
             int j = i;
-            pad.rootVisualElement.Q<Button>("Btn" + i.ToString()).clicked += () => Log(j);
+            pad.rootVisualElement.Q<Button>("Btn" + i.ToString()).clicked += () => EnterDigit(j);
         }
+        pad.rootVisualElement.Q<Button>("BtnClear").clicked += () => ClearCell();
+        pad.rootVisualElement.Q<Button>("BtnBack").clicked += () => HideDigitPad();
     }
 
-    private void Log(int i)
+    private void EnterDigit(int i)
     {
         if (cx != -1)
         {
@@ -52,12 +54,35 @@ public class Test : MonoBehaviour
             {
                 data[cx][cy] = i.ToString().ToCharArray()[0];
             }
+            pad.rootVisualElement.Q<VisualElement>("root").style.display = DisplayStyle.None;
+            UpdateBoard();
         }
-        UpdateBoard();
     }
-
-    private void Clicked(int x, int y)
+    
+    private void ClearCell()
     {
+        if (cx != -1)
+        {
+            data[cx][cy] = '.';
+            pad.rootVisualElement.Q<VisualElement>("root").style.display = DisplayStyle.None;
+            UpdateBoard();
+        }
+    }
+    
+    private void HideDigitPad()
+    {
+        pad.rootVisualElement.Q<VisualElement>("root").style.display = DisplayStyle.None;
+    }
+    
+    private void Clicked(int x, int y, ClickEvent evn)
+    {
+        VisualElement padRoot = pad.rootVisualElement.Q<VisualElement>("root");
+        Vector3 pos = evn.position;
+        pos.x = x > 4 ? pos.x - padRoot.layout.size.x - 50 : pos.x + 50;
+        pos.y = y > 4 ? pos.y - padRoot.layout.size.y - 50 : pos.y + 50;
+        padRoot.transform.position = pos;
+        padRoot.style.display = DisplayStyle.Flex;
+
         cx = x;
         cy = y;
     }
@@ -94,6 +119,9 @@ public class Test : MonoBehaviour
 
     private void Clear()
     {
+        VisualElement padRoot = pad.rootVisualElement.Q<VisualElement>("root");
+        padRoot.style.display = DisplayStyle.None;
+
         for (int i = 0; i < 9; i++)
         {
             for (int j = 0; j < 9; j++)
